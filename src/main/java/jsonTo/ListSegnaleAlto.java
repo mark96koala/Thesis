@@ -132,7 +132,9 @@ public class ListSegnaleAlto {
 
 	  @Override
 		public String toString(){
-	    	StringBuilder sb = new StringBuilder();
+		  return getId() + ", "+getIdSlot()+", "+getUid() + ", "+getName()+", "+getChiusuradm() + ", "+getAnnullamento_chiusuradm()
+		  +", "+getAnnullamento_dm_ch()+ ", "+getAnnullamento_am_ch()+", "+getTxgenerico_cmd() + ", "+getEsclusioneis()+ ", "+getEsclusionedm()
+		  +", "+getAnnullamento_esclusionedm()+ ", "+getAnnullamento_am_esclusioneis()+", "+getAnnullamento_dm_esclusioneis();	
 	    	
 	    }
 

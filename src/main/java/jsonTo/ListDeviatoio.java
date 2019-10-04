@@ -1,5 +1,7 @@
 package jsonTo;
 
+import java.util.Arrays;
+
 public class ListDeviatoio {
 	
 	 private int id;
@@ -214,7 +216,9 @@ public class ListDeviatoio {
 
 	  @Override
 		public String toString(){
-	    	StringBuilder sb = new StringBuilder();
-	    	
+		  return getId() + ", "+getIdSlot()+", "+getUid() + ", "+getName()+", "+getLeggeron() + ", "+getLeggeror()+", "+getTelecomandon()
+			 + ", "+getTelecomandor()+", "+getConfermaton() + ", "+getConfermator()+ ", "+getTbn()+", "+getTbr() + ", "+getTcn()+", "
+				  +getTcr() + ", "+getTbtcn()+ ", "+getTbtcr()+", "+getEsclusioneis() + ", "+getEsclusionedm()+", "+getAnnullamento_esclusionedm() + ", "
+			 +getAnnullamento_am_esclusioneis()+ ", "+getAnnullamento_dm_esclusioneis()+", "+getAlimentazione() + ", "+getDisalimentazione();	  
 	    }
 }

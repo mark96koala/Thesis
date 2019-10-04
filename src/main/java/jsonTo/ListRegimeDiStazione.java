@@ -70,7 +70,7 @@ public class ListRegimeDiStazione {
 
 	 @Override
 		public String toString(){
-			StringBuilder sb = new StringBuilder();
-
+			return getId() + ", "+getIdSlot()+", "+getUid() + ", "+getName()+", "+getEdco_verso_j()+", "+getEdco_verso_sp()+", "
+					+getEdco();
 		}
 }

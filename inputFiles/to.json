@@ -1,0 +1,101 @@
+{
+	"tag": "terminaleoperatore",
+	"idStazione": "2",
+	"idCda": "3",
+	"listCircuitoDiBinario": {
+		"id": "2",
+		"idSlot": "3",
+		"uid": "4",
+		"name": "nome_istanza",
+		
+		"esclusioneis": false,
+		"esclusionedm": false,
+		"annullamento_esclusionedm": false,
+		"annullamento_am_esclusioneis": false,
+		"annullamento_dm_esclusioneis": false,
+		"tlcdb": false
+	},
+	"listDeviatoio": {
+		"id": "2",
+		"idSlot": "3",
+		"uid": "4",
+		"name": "nome_istanza",
+
+		"leggeron": false,
+		"leggeror": false,
+		"telecomandon": false,
+		"telecomandor": false,
+		"confermaton": false,
+		"confermator": false,
+		"tbn": false,
+		"tbr": false,
+		"tcn": false,
+		"tcr": false,
+		"tbtcn": false,
+		"tbtcr": false,
+		"esclusioneis": false,
+		"esclusionedm": false,
+		"annullamento_esclusionedm": false,
+		"annullamento_am_esclusioneis": false,
+		"annullamento_dm_esclusioneis": false,
+		"alimentazione": false,
+		"disalimentazione": false
+	},
+	"listSegnaleAlto": {
+		"id": "2",
+		"idSlot": "3",
+		"uid": "5",
+		"name": "nome_istanza",
+
+		"chiusuradm": false,
+		"annullamento_chiusuradm": false,
+		"annullamento_dm_ch": false,
+		"annullamento_am_ch": false,
+		"txgenerico_cmd": false,
+		"esclusioneis": false,
+		"esclusionedm": false,
+		"annullamento_esclusionedm": false,
+		"annullamento_am_esclusioneis": false,
+		"annullamento_dm_esclusioneis": false
+	},
+	"listItinerario": {
+		"id": "2",
+		"idSlot": "3",
+		"uid": "4",
+		"name": "nome_istanza",
+
+		"attivazione_da_to": false,
+		"disattivazione_da_to": false,
+		"attivazione_da_dco": false,
+		"disattivazione_da_dco": false
+	},
+	"listInstradamento": {
+		"id": "2",
+		"idSlot": "3",
+		"uid": "3",
+		"name": "nome_istanza",
+
+		"attivazione_da_to": false,
+		"disattivazione_da_to": false,
+		"attivazione_da_dco": false,
+		"disattivazione_da_dco": false
+	},
+	"listRTE": {
+		"id": "2",
+		"idSlot": "3",
+		"uid": "4",
+		"name": "nome_istanza",
+
+		"attivazione_rte": false
+	},
+	"listRegimeDiStazione": {
+		"id": "2",
+		"idSlot": "3",
+		"uid": "4",
+		"name": "nome_istanza",
+
+		"edco_verso_j": false,
+		"edco_verso_sp": false,
+		"edco": false
+	}
+}

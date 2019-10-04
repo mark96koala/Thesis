@@ -28,9 +28,10 @@ public class TestIndex {
 				//read json file data to String
 				byte[] jsonData = Files.readAllBytes(Paths.get(file.getPath()));
 
-				Employee emp = ObjectMapperJson.DeserializeJson(jsonData,file);
+				To to = ObjectMapperJson.deserializeToJson(jsonData,file);
+			
 
-				WriteIndexFile.StartWriteIndex(indexPath,file.toPath(),emp);
+			//	WriteIndexFile.StartWriteIndex(indexPath,file.toPath(),emp);
 
 			}
 

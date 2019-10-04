@@ -51,7 +51,6 @@ public class ListRTE {
 	 
 	 @Override
 		public String toString(){
-			StringBuilder sb = new StringBuilder();
-
+		 return getId() + ", "+getIdSlot()+", "+getUid() + ", "+getName()+", "+getAttivazione_rte();
 		}
 }

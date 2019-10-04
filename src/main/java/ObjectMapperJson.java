@@ -9,41 +9,67 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import jsonTo.*;
+import jsonSimulatoreTo.*;
 
 
 public class ObjectMapperJson {
 
-	
 
-	public static Employee DeserializeJson(byte[] json, File file) throws JsonParseException, JsonMappingException, IOException{
-		
-				//create ObjectMapper instance
-				ObjectMapper objectMapper = new ObjectMapper();
-				
-				//convert json string to object = Deserialize
-				Employee emp = objectMapper.readValue(json, Employee.class);
-				
-				System.out.println("Employee Object\n"+emp);
-				objectMapper.writeValue(new File("deserializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Deserialized.json"), emp);  //Write Object in a file
-				return emp;
-		}
-	
-	public static void SerializeJson(Employee emp, File file) throws JsonGenerationException, JsonMappingException, IOException {
-		
-				ObjectMapper objectMapper = new ObjectMapper();
-		
-				//configure Object mapper for pretty print
-				objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
-		
-				//writing to console, can write to any output stream such as file
-				StringWriter stringEmp = new StringWriter();
-				objectMapper.writeValue(stringEmp, emp);    
-				System.out.println("Employee JSON is\n"+stringEmp);
-				objectMapper.writeValue(new File("serializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Serialized.json"), emp); // we can write on file here
+
+	public static Employee deserializeJson(byte[] json, File file) throws JsonParseException, JsonMappingException, IOException{
+
+		//create ObjectMapper instance
+		ObjectMapper objectMapper = new ObjectMapper();
+
+		//convert json string to object = Deserialize
+		Employee emp = objectMapper.readValue(json, Employee.class);
+
+		System.out.println("Employee Object\n"+emp);
+		objectMapper.writeValue(new File("deserializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Deserialized.json"), emp);  //Write Object in a file
+		return emp;
 	}
-	
 
-/*	public static Employee createEmployee() {
+
+	public static To deserializeToJson(byte[] json, File file) throws JsonParseException, JsonMappingException, IOException{
+
+		//create ObjectMapper instance
+		ObjectMapper objectMapper = new ObjectMapper();
+
+		//convert json string to object = Deserialize
+		To to = objectMapper.readValue(json, To.class);
+
+		System.out.println("To Json\n"+to);
+		objectMapper.writeValue(new File("deserializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Deserialized.json"), to);  //Write Object in a file
+		return to;
+	}
+	public static SimulatoreTo deserializeSimulatoreToJson(byte[] json, File file) throws JsonParseException, JsonMappingException, IOException{
+
+		//create ObjectMapper instance
+		ObjectMapper objectMapper = new ObjectMapper();
+
+		//convert json string to object = Deserialize
+		SimulatoreTo SimTo = objectMapper.readValue(json, SimulatoreTo.class);
+
+		System.out.println("SimulatoreTo Json\n"+SimTo);
+		objectMapper.writeValue(new File("deserializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Deserialized.json"), SimTo);  //Write Object in a file
+		return SimTo;
+	}
+
+	public static void serializeJson(Employee emp, File file) throws JsonGenerationException, JsonMappingException, IOException {
+
+		ObjectMapper objectMapper = new ObjectMapper();
+
+		//configure Object mapper for pretty print
+		objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+
+		//writing to console, can write to any output stream such as file
+		StringWriter stringEmp = new StringWriter();
+		objectMapper.writeValue(stringEmp, emp);    
+		System.out.println("Employee JSON is\n"+stringEmp);
+		objectMapper.writeValue(new File("serializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Serialized.json"), emp); // we can write on file here
+	}
+
+	/*	public static Employee createEmployee() {
 
 		Employee emp = new Employee();
 		emp.setId(100);

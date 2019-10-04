@@ -78,7 +78,8 @@ public class ListItinerario {
 
 	@Override
 	public String toString(){
-		StringBuilder sb = new StringBuilder();
+		return getId() + ", "+getIdSlot()+", "+getUid() + ", "+getName()+", "+getAttivazione_da_to() + ", "+getDisattivazione_da_to()
+		 +", "+getAttivazione_da_dco() + ", "+getDisattivazione_da_dco();
 
 	}
 }
