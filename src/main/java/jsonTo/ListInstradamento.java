@@ -1,9 +1,9 @@
 package jsonTo;
 
 public class ListInstradamento {
-		 private int id;
-		 private int idSlot;
-		 private int uid;
+		 private String id;
+		 private String idSlot;
+		 private String uid;
 		 private String name;
 		 private boolean attivazione_da_to;
 		 private boolean disattivazione_da_to;
@@ -11,15 +11,15 @@ public class ListInstradamento {
 		 private boolean disattivazione_da_dco;
 
 
-		 public int getId() {
+		 public String getId() {
 		  return id;
 		 }
 
-		 public int getIdSlot() {
+		 public String getIdSlot() {
 		  return idSlot;
 		 }
 
-		 public int getUid() {
+		 public String getUid() {
 		  return uid;
 		 }
 
@@ -44,15 +44,15 @@ public class ListInstradamento {
 		 }
 
 
-		 public void setId(int id) {
+		 public void setId(String id) {
 		  this.id = id;
 		 }
 
-		 public void setIdSlot(int idSlot) {
+		 public void setIdSlot(String idSlot) {
 		  this.idSlot = idSlot;
 		 }
 
-		 public void setUid(int uid) {
+		 public void setUid(String uid) {
 		  this.uid = uid;
 		 }
 

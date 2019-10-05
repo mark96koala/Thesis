@@ -2,9 +2,9 @@ package jsonTo;
 
 public class ListSegnaleAlto {
 	
-	 private int id;
-	 private int idSlot;
-	 private int uid;
+	 private String id;
+	 private String idSlot;
+	 private String uid;
 	 private String name;
 	 private boolean chiusuradm;
 	 private boolean annullamento_chiusuradm;
@@ -17,15 +17,15 @@ public class ListSegnaleAlto {
 	 private boolean annullamento_am_esclusioneis;
 	 private boolean annullamento_dm_esclusioneis;
 
-	 public int getId() {
+	 public String getId() {
 	  return id;
 	 }
 
-	 public int getIdSlot() {
+	 public String getIdSlot() {
 	  return idSlot;
 	 }
 
-	 public int getUid() {
+	 public String getUid() {
 	  return uid;
 	 }
 
@@ -74,15 +74,15 @@ public class ListSegnaleAlto {
 	 }
 
 
-	 public void setId(int id) {
+	 public void setId(String id) {
 	  this.id = id;
 	 }
 
-	 public void setIdSlot(int idSlot) {
+	 public void setIdSlot(String idSlot) {
 	  this.idSlot = idSlot;
 	 }
 
-	 public void setUid(int uid) {
+	 public void setUid(String uid) {
 	  this.uid = uid;
 	 }
 

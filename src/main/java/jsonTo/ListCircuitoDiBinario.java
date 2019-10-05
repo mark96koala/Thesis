@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class ListCircuitoDiBinario {
 
-	private int id;
-	private int idSlot;
-	private int uid;
+	private String id;
+	private String idSlot;
+	private String uid;
 	private String name;
 	private boolean esclusioneis;
 	private boolean esclusionedm;
@@ -17,12 +17,12 @@ public class ListCircuitoDiBinario {
 	
 	private boolean tlcdb;
 
-	public int getUid ()
+	public String getUid ()
 	{
 		return uid;
 	}
 
-	public void setUid (int uid)
+	public void setUid (String uid)
 	{
 		this.uid = uid;
 	}
@@ -87,22 +87,22 @@ public class ListCircuitoDiBinario {
 		this.annullamento_am_esclusioneis = annullamento_am_esclusioneis;
 	}
 
-	public int getId ()
+	public String getId ()
 	{
 		return id;
 	}
 
-	public void setId (int id)
+	public void setId (String id)
 	{
 		this.id = id;
 	}
 
-	public int getIdSlot ()
+	public String getIdSlot ()
 	{
 		return idSlot;
 	}
 
-	public void setIdSlot (int idSlot)
+	public void setIdSlot (String idSlot)
 	{
 		this.idSlot = idSlot;
 	}

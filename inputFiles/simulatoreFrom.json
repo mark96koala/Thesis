@@ -1,0 +1,69 @@
+{
+	"tag": "controlli",
+	"idStazione": "id_stazione",
+	"idCda": "id_cda",
+	"listCircuitoDiBinario": {
+		"id": "id_istanza",
+		"idSlot": "id_slot",
+		"uid": "numero_istanza",
+		"name": "nome_istanza",
+
+		"codifica": true
+	},
+	"listDeviatoio": {
+		"id": "id_istanza",
+		"idSlot": "id_slot",
+		"uid": "numero_istanza",
+		"name": "nome_istanza",
+
+		"controllo_posizione": "normale"
+	},
+	"listElettromagnete": {
+		"id": "id_istanza",
+		"idSlot": "id_slot",
+		"uid": "numero_istanza",
+		"name": "nome_istanza",
+
+		"lettura": "alto"
+	},
+	"listSegnaleAlto": {
+		"id": "id_istanza",
+		"idSlot": "id_slot",
+		"uid": "numero_istanza",
+		"name": "nome_istanza",
+
+		"lettura": "rosso"
+	},
+	"listFrecciaEvidenziatrice": {
+		"id": "id_istanza",
+		"idSlot": "id_slot",
+		"uid": "numero_istanza",
+		"name": "nome_istanza",
+
+		"lettura": "accesa"
+	},	
+	"listAvvioAvanzamento": {
+		"id": "id_istanza",
+		"idSlot": "id_slot",
+		"uid": "numero_istanza",
+		"name": "nome_istanza",
+
+		"lettura": "acceso"
+	},
+	"listRipetitoreDiPartenza": {
+		"id": "id_istanza",
+		"idSlot": "id_slot",
+		"uid": "numero_istanza",
+		"name": "nome_istanza",
+
+		"lettura": "acceso"
+	},
+	"listSegnaleBasso": {
+		"id": "id_istanza",
+		"idSlot": "id_slot",
+		"uid": "numero_istanza",
+		"name": "nome_istanza",
+
+		"lettura": "vl_fissa"
+	}
+}

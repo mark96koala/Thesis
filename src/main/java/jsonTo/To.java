@@ -3,8 +3,8 @@ package jsonTo;
 public class To {
 
 	private String tag;
-	private int idStazione;
-	private int idCda;
+	private String idStazione;
+	private String idCda;
 	private ListCircuitoDiBinario listCircuitoDiBinario;
 	private ListDeviatoio listDeviatoio;
 	private ListSegnaleAlto listSegnaleAlto;
@@ -23,22 +23,22 @@ public class To {
         this.tag = tag;
     }
     
-    public int getIdStazione ()
+    public String getIdStazione ()
     {
         return idStazione;
     }
 
-    public void setIdStazione (int idStazione)
+    public void setIdStazione (String idStazione)
     {
         this.idStazione = idStazione;
     }
     
-    public int getIdCda ()
+    public String getIdCda ()
     {
         return idCda;
     }
 
-    public void setIdCda (int idCda)
+    public void setIdCda (String idCda)
     {
         this.idCda = idCda;
     }

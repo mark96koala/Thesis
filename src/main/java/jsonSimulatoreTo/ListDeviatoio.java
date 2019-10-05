@@ -1,22 +1,22 @@
 package jsonSimulatoreTo;
 
 public class ListDeviatoio {
-	private int id;
-	private int idSlot;
-	private int uid;
+	private String id;
+	private String idSlot;
+	private String uid;
 	private String name;
 	private String scrittura;
 	
 
-	 public int getId() {
+	 public String getId() {
 	  return id;
 	 }
 
-	 public int getIdSlot() {
+	 public String getIdSlot() {
 	  return idSlot;
 	 }
 
-	 public int getUid() {
+	 public String getUid() {
 	  return uid;
 	 }
 
@@ -28,15 +28,15 @@ public class ListDeviatoio {
 	  return scrittura;
 	 }
 
-	 public void setId(int id) {
+	 public void setId(String id) {
 	  this.id = id;
 	 }
 
-	 public void setIdSlot(int idSlot) {
+	 public void setIdSlot(String idSlot) {
 	  this.idSlot = idSlot;
 	 }
 
-	 public void setUid(int uid) {
+	 public void setUid(String uid) {
 	  this.uid = uid;
 	 }
 

@@ -4,8 +4,8 @@ public class SimulatoreTo {
 
 	
 	 	private String tag;
-	 	private int idStazione;
-	    private int idCda;
+	 	private String idStazione;
+	    private String idCda;
 	    private ListCircuitoDiBinario listCircuitoDiBinario;
 	    private ListDeviatoio listDeviatoio;
 	    private ListElettromagnete listElettromagnete;
@@ -78,22 +78,22 @@ public class SimulatoreTo {
 	        this.listSegnaleAlto = listSegnaleAlto;
 	    }
 
-	    public int getIdStazione ()
+	    public String getIdStazione ()
 	    {
 	        return idStazione;
 	    }
 
-	    public void setIdStazione (int idStazione)
+	    public void setIdStazione (String idStazione)
 	    {
 	        this.idStazione = idStazione;
 	    }
 
-	    public int getIdCda ()
+	    public String getIdCda ()
 	    {
 	        return idCda;
 	    }
 
-	    public void setIdCda (int idCda)
+	    public void setIdCda (String idCda)
 	    {
 	        this.idCda = idCda;
 	    }
@@ -157,6 +157,7 @@ public class SimulatoreTo {
 			sb.append("idCda="+getIdCda()+"\n");
 			sb.append("ListCircuitoDiBinario="+getListCircuitoDiBinario()+"\n");
 			sb.append("ListDeviatoio="+getListDeviatoio()+"\n");
+			sb.append("ListElettromagnete="+getListElettromagnete()+"\n");
 			sb.append("ListSegnaleAlto="+getListSegnaleAlto()+"\n");
 			sb.append("ListFrecciaEvidenziatrice="+getListFrecciaEvidenziatrice()+"\n");
 			sb.append("ListIndicatoreCPR="+getListIndicatoreCPR()+"\n");

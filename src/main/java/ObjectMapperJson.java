@@ -10,24 +10,11 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 import jsonTo.*;
 import jsonSimulatoreTo.*;
+import jsonSimulatoreFrom.*;
+import jsonQl.*;
 
 
 public class ObjectMapperJson {
-
-
-
-	public static Employee deserializeJson(byte[] json, File file) throws JsonParseException, JsonMappingException, IOException{
-
-		//create ObjectMapper instance
-		ObjectMapper objectMapper = new ObjectMapper();
-
-		//convert json string to object = Deserialize
-		Employee emp = objectMapper.readValue(json, Employee.class);
-
-		System.out.println("Employee Object\n"+emp);
-		objectMapper.writeValue(new File("deserializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Deserialized.json"), emp);  //Write Object in a file
-		return emp;
-	}
 
 
 	public static To deserializeToJson(byte[] json, File file) throws JsonParseException, JsonMappingException, IOException{
@@ -54,8 +41,34 @@ public class ObjectMapperJson {
 		objectMapper.writeValue(new File("deserializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Deserialized.json"), SimTo);  //Write Object in a file
 		return SimTo;
 	}
+	
+	public static SimulatoreFrom deserializeSimulatoreFromJson(byte[] json, File file) throws JsonParseException, JsonMappingException, IOException{
 
-	public static void serializeJson(Employee emp, File file) throws JsonGenerationException, JsonMappingException, IOException {
+		//create ObjectMapper instance
+		ObjectMapper objectMapper = new ObjectMapper();
+
+		//convert json string to object = Deserialize
+		SimulatoreFrom SimFrom = objectMapper.readValue(json, SimulatoreFrom.class);
+
+		System.out.println("SimulatoreFrom Json\n"+SimFrom);
+		objectMapper.writeValue(new File("deserializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Deserialized.json"), SimFrom);  //Write Object in a file
+		return SimFrom;
+	}
+	
+	public static Ql deserializeQlJson(byte[] json, File file) throws JsonParseException, JsonMappingException, IOException{
+
+		//create ObjectMapper instance
+		ObjectMapper objectMapper = new ObjectMapper();
+
+		//convert json string to object = Deserialize
+		Ql ql1 = objectMapper.readValue(json, Ql.class);
+
+		System.out.println("Ql Json\n"+ql1);
+		objectMapper.writeValue(new File("deserializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Deserialized.json"), ql1);  //Write Object in a file
+		return ql1;
+	}
+
+	public static void serializeJson(Class class1, File file) throws JsonGenerationException, JsonMappingException, IOException {
 
 		ObjectMapper objectMapper = new ObjectMapper();
 
@@ -64,38 +77,11 @@ public class ObjectMapperJson {
 
 		//writing to console, can write to any output stream such as file
 		StringWriter stringEmp = new StringWriter();
-		objectMapper.writeValue(stringEmp, emp);    
+		objectMapper.writeValue(stringEmp, class1);    
 		System.out.println("Employee JSON is\n"+stringEmp);
-		objectMapper.writeValue(new File("serializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Serialized.json"), emp); // we can write on file here
+		objectMapper.writeValue(new File("serializedFiles/"+file.getName().replaceFirst("[.][^.]+$", "")+"Serialized.json"), class1); // we can write on file here
 	}
 
-	/*	public static Employee createEmployee() {
-
-		Employee emp = new Employee();
-		emp.setId(100);
-		emp.setName("Andrea");
-		emp.setPermanent(false);
-		emp.setPhoneNumbers(new long[] { 123456, 987654 });
-		emp.setRole("Manager");
-
-		Address add = new Address();
-		add.setCity("Bangalore");
-		add.setStreet("BTM 1st Stage");
-		add.setZipcode(560100);
-		emp.setAddress(add);
-
-		List<String> cities = new ArrayList<String>();
-		cities.add("Los Angeles");
-		cities.add("New York");
-		emp.setCities(cities);
-
-		Map<String, String> props = new HashMap<String, String>();
-		props.put("salary", "1000 Rs");
-		props.put("age", "28 years");
-		emp.setProperties(props);
-
-		return emp;
-	} */
 }
 
 
