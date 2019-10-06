@@ -19,21 +19,24 @@ public class ReadIndexFiles
  
     static void StartReadingIndex(String indexPath) throws Exception 
     {
-        //Create lucene searcher. It search over a single IndexReader.
+        //Create lucene searcher. It search over a single IndexReader.idSlot in ListInstradamento
         IndexSearcher searcher = createSearcher(indexPath);
          
         //Search indexed contents using search term
         TopDocs foundDocs = searchInContent("75", searcher);
-        TopDocs foundDocs1 = searchInAreaLaterale("occupato_secco", searcher);
-        TopDocs foundDocs2 = searchInElettromagnete("eccitato", searcher);
-        TopDocs foundDocs3 = searchInRipetitoreDiPartenza("id_istanza", searcher);
+        TopDocs foundDocs1 = searchInQlAreaLaterale("occupato_secco", searcher);
+        TopDocs foundDocs2 = searchInSimulatoreToElettromagnete("eccitato", searcher);
+        TopDocs foundDocs3 = searchInSimulatoreFromRipetitoreDiPartenza("id_istanza", searcher);
+        TopDocs foundDocs4 = searchInToInstradamento("4", searcher);
         
         //Total found documents
         System.out.println("Total Results of '75' :: " + foundDocs.totalHits);
-        System.out.println("Total Results of 'occupato_secco' :: " + foundDocs1.totalHits);
-        System.out.println("Total Results of 'eccitato' :: " + foundDocs2.totalHits);
-        System.out.println("Total Results of 'id_istanza' :: " + foundDocs3.totalHits);
-         
+        System.out.println("Total Results of 'occupato_secco' in Ql.AreaLaterale :: " + foundDocs1.totalHits);
+        System.out.println("Total Results of 'eccitato' in SimulatoreTo.Elettromagnete :: " + foundDocs2.totalHits);
+        System.out.println("Total Results of 'id_istanza' in SimulatoreFrom.RipetitoreDiPartenza :: " + foundDocs3.totalHits);
+        System.out.println("Total Results of '4' in To.Instradamento :: " + foundDocs4.totalHits);
+ 
+        
         //Let's print out the path of files which have searched term
         for (ScoreDoc sd : foundDocs.scoreDocs) 
         {
@@ -63,6 +66,14 @@ public class ReadIndexFiles
         }
         ScoreDoc[] hits3 = foundDocs3.scoreDocs;
         
+
+        for (ScoreDoc sd : foundDocs4.scoreDocs) 
+        {
+            Document d = searcher.doc(sd.doc);
+            System.out.println("Path of 'idSlot' : "+ d.get("path"));
+        }
+        ScoreDoc[] hits4 = foundDocs4.scoreDocs;
+        
         
     }
      
@@ -77,7 +88,7 @@ public class ReadIndexFiles
         return hits;
     }
     
-    private static TopDocs searchInAreaLaterale(String textToFind, IndexSearcher searcher) throws Exception
+    private static TopDocs searchInQlAreaLaterale(String textToFind, IndexSearcher searcher) throws Exception
     {
         //Create search query
         QueryParser qp = new QueryParser("stato in ListAreaLaterale", new StandardAnalyzer());
@@ -88,7 +99,7 @@ public class ReadIndexFiles
         return hits;
     }
     
-    private static TopDocs searchInElettromagnete(String textToFind, IndexSearcher searcher) throws Exception
+    private static TopDocs searchInSimulatoreToElettromagnete(String textToFind, IndexSearcher searcher) throws Exception
     {
         //Create search query
         QueryParser qp = new QueryParser("scrittura in ListElettromagnete", new StandardAnalyzer());
@@ -99,10 +110,21 @@ public class ReadIndexFiles
         return hits;
     }
     
-    private static TopDocs searchInRipetitoreDiPartenza(String textToFind, IndexSearcher searcher) throws Exception
+    private static TopDocs searchInSimulatoreFromRipetitoreDiPartenza(String textToFind, IndexSearcher searcher) throws Exception
     {
         //Create search query
         QueryParser qp = new QueryParser("id in ListRipetitoreDiPartenza", new StandardAnalyzer());
+        Query query = qp.parse(textToFind);
+         
+        //search the index
+        TopDocs hits = searcher.search(query, 100);
+        return hits;
+    }
+    
+    private static TopDocs searchInToInstradamento(String textToFind, IndexSearcher searcher) throws Exception
+    {
+        //Create search query
+        QueryParser qp = new QueryParser("idSlot in ListInstradamento", new StandardAnalyzer());
         Query query = qp.parse(textToFind);
          
         //search the index

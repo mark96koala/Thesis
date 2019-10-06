@@ -2,6 +2,7 @@ package jsonSimulatoreFrom;
 
 public class SimulatoreFrom {
 
+	private int numero_ciclo;
 	private String tag;
  	private String idStazione;
     private String idCda;
@@ -15,6 +16,16 @@ public class SimulatoreFrom {
   	private ListSegnaleBasso listSegnaleBasso;
 
     
+  	 public int getNumero_ciclo ()
+     {
+         return numero_ciclo;
+     }
+     
+     public void setNumero_ciclo (int numero_ciclo)
+     {
+         this.numero_ciclo = numero_ciclo;
+     }
+     
     public ListCircuitoDiBinario getListCircuitoDiBinario ()
     {
         return listCircuitoDiBinario;

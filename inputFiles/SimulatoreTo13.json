@@ -1,0 +1,76 @@
+{
+  "numero_ciclo" : 13,
+  "tag" : "terminale",
+  "idStazione" : "3",
+  "idCda" : "4",
+  "listCircuitoDiBinario" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "75"
+  },
+  "listDeviatoio" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "normale"
+  },
+  "listElettromagnete" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "eccitato"
+  },
+  "listSegnaleBasso" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "vl_fissa"
+  },
+  "listFrecciaEvidenziatrice" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "accesa"
+  },
+  "listIndicatoreCPR" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "spento"
+  },
+  "listIndicatoreDiDirezione" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "0"
+  },
+  "listAvvioAvanzamento" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "acceso"
+  },
+  "listRipetitoreDiPartenza" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "acceso"
+  },
+  "listSegnaleAlto" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "scrittura" : "rosso"
+  }
+}

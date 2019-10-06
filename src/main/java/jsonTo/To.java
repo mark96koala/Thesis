@@ -2,6 +2,7 @@ package jsonTo;
 
 public class To {
 
+	private int numero_ciclo;
 	private String tag;
 	private String idStazione;
 	private String idCda;
@@ -13,6 +14,17 @@ public class To {
     private ListRTE listRTE;
     private ListRegimeDiStazione listRegimeDiStazione;
 
+    
+    public int getNumero_ciclo ()
+    {
+        return numero_ciclo;
+    }
+    
+    public void setNumero_ciclo (int numero_ciclo)
+    {
+        this.numero_ciclo = numero_ciclo;
+    }
+    
     public String getTag ()
     {
         return tag;
