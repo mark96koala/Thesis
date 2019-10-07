@@ -67,9 +67,9 @@
     "disattivazione_da_dco" : true
   },
   "listInstradamento" : {
-    "id" : "25",
-    "idSlot" : "68",
-    "uid" : "25",
+    "id" : "4",
+    "idSlot" : "4",
+    "uid" : "4",
     "name" : "Ghs",
     "attivazione_da_to" : false,
     "disattivazione_da_to" : true,
