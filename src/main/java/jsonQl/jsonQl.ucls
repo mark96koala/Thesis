@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="jsonQl.ListCalcoloAspettoECodice" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListCalcoloAspettoECodice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="223" x="2665" y="1510"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="jsonQl.ListSegnaleBasso" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListSegnaleBasso.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="332" width="222" x="3384" y="1626"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="jsonQl.ListScudetto" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListScudetto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="280" width="262" x="2566" y="1186"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="jsonQl.ListAnnuncioTreno" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListAnnuncioTreno.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="158" x="2492" y="974"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="jsonQl.ListElettromagnete" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListElettromagnete.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="206" width="212" x="2494" y="738"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="jsonQl.ListSoccorsoTxTcl" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListSoccorsoTxTcl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="156" x="2530" y="542"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="jsonQl.ListTracciatoPermanente" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListTracciatoPermanente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="156" width="201" x="2478" y="342"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="jsonQl.ListInstradamento" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListInstradamento.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="227" x="2559" y="130"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="jsonQl.ListAreaLaterale" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListAreaLaterale.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="174" width="187" x="2600" y="-92"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="jsonQl.ListFrecciaEvidenziatrice" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListFrecciaEvidenziatrice.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="188" width="204" x="2777" y="1742"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="jsonQl.ListCircuitoDiBinario" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListCircuitoDiBinario.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="305" x="3053" y="1670"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="jsonQl.ListDeviatoio" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListDeviatoio.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="352" width="270" x="2824" y="-190"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="jsonQl.ListIndicatoreDiDirezione" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListIndicatoreDiDirezione.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="208" width="225" x="3132" y="-162"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="jsonQl.ListRegimeDiStazione" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListRegimeDiStazione.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="221" x="3381" y="-158"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="jsonQl.ListIndicatoreCPR" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListIndicatoreCPR.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="153" x="3638" y="-110"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="jsonQl.ListBloccamentoDelPercorso" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListBloccamentoDelPercorso.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="257" x="3883" y="244"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="jsonQl.ListCodificaItinerario" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListCodificaItinerario.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="152" width="172" x="3816" y="-126"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="jsonQl.ListRTE" project="Tesi" file="/Tesi/src/main/java/jsonQl/ListRTE.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="154" width="146" x="3840" y="82"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="jsonQl.ListRipetitoreDiPartenza" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListRipetitoreDiPartenza.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="192" width="199" x="3878" y="506"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="jsonQl.ListItinerario" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListItinerario.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="299" x="3829" y="730"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="jsonQl.ListSegnaleAlto" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListSegnaleAlto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="462" width="298" x="3812" y="926"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="jsonQl.Ql" project="Tesi" file="/Tesi/src/main/java/jsonQl/Ql.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="414" x="3066" y="580"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="jsonQl.ListAvvioAvanzamento" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListAvvioAvanzamento.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="188" x="3790" y="1422"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="jsonQl.ListBloccamentoUscita" project="Tesi" 
+    file="/Tesi/src/main/java/jsonQl/ListBloccamentoUscita.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="174" width="186" x="3662" y="1650"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="25">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="26" name="ListTracciatoPermanente">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="1">        
+        <position height="18" width="27" x="2697" y="497"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="29" name="ListIndicatoreDiDirezione">        
+        <position height="20" width="155" x="3096" y="160"/>      
+      </attribute>      
+      <multiplicity id="30" minimum="0" maximum="1">        
+        <position height="18" width="27" x="3221" y="123"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="32" name="ListAnnuncioTreno">        
+        <position height="20" width="119" x="2685" y="981"/>      
+      </attribute>      
+      <multiplicity id="33" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="34">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="35" name="ListCodificaItinerario">        
+        <position height="20" width="128" x="3901" y="38"/>      
+      </attribute>      
+      <multiplicity id="36" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="38" name="ListElettromagnete">        
+        <position height="20" width="121" x="2747" y="796"/>      
+      </attribute>      
+      <multiplicity id="39" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="40">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="41" name="ListIndicatoreCPR">        
+        <position height="20" width="116" x="3512" y="77"/>      
+      </attribute>      
+      <multiplicity id="42" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="44" name="ListCalcoloAspettoECodice">        
+        <position height="20" width="170" x="2648" y="1477"/>      
+      </attribute>      
+      <multiplicity id="45" minimum="0" maximum="1">        
+        <position height="18" width="27" x="2844" y="1480"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="47" name="ListBloccamentoUscita">        
+        <position height="20" width="146" x="3547" y="1601"/>      
+      </attribute>      
+      <multiplicity id="48" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="50" name="ListDeviatoio">        
+        <position height="20" width="85" x="2912" y="170"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1">        
+        <position height="18" width="27" x="3059" y="173"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="53" name="ListAreaLaterale">        
+        <position height="20" width="106" x="2623" y="91"/>      
+      </attribute>      
+      <multiplicity id="54" minimum="0" maximum="1">        
+        <position height="18" width="27" x="2761" y="90"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="56" name="ListItinerario">        
+        <position height="20" width="82" x="3731" y="724"/>      
+      </attribute>      
+      <multiplicity id="57" minimum="0" maximum="1">        
+        <position height="18" width="27" x="3790" y="868"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="59" name="ListInstradamento">        
+        <position height="20" width="115" x="2629" y="320"/>      
+      </attribute>      
+      <multiplicity id="60" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="62" name="ListCircuitoDiBinario">        
+        <position height="20" width="129" x="3059" y="1638"/>      
+      </attribute>      
+      <multiplicity id="63" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="65" name="ListSegnaleAlto">        
+        <position height="20" width="103" x="3698" y="1072"/>      
+      </attribute>      
+      <multiplicity id="66" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="68" name="ListSegnaleBasso">        
+        <position height="20" width="117" x="3320" y="1594"/>      
+      </attribute>      
+      <multiplicity id="69" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="70">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="71" name="ListRTE">        
+        <position height="20" width="58" x="3782" y="250"/>      
+      </attribute>      
+      <multiplicity id="72" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="73">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="74" name="ListSoccorsoTxTcl">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="75" minimum="0" maximum="1">        
+        <position height="18" width="27" x="2697" y="680"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="76">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="77" name="ListRipetitoreDiPartenza">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="78" minimum="0" maximum="1">        
+        <position height="18" width="27" x="3841" y="673"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="80" name="ListRegimeDiStazione">        
+        <position height="20" width="140" x="3294" y="86"/>      
+      </attribute>      
+      <multiplicity id="81" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="83" name="ListBloccamentoDelPercorso">        
+        <position height="20" width="180" x="3690" y="382"/>      
+      </attribute>      
+      <multiplicity id="84" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="86" name="ListFrecciaEvidenziatrice">        
+        <position height="20" width="156" x="2745" y="1710"/>      
+      </attribute>      
+      <multiplicity id="87" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="89" name="ListAvvioAvanzamento">        
+        <position height="20" width="140" x="3615" y="1405"/>      
+      </attribute>      
+      <multiplicity id="90" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="91">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="92" name="ListScudetto">        
+        <position height="20" width="85" x="2864" y="1226"/>      
+      </attribute>      
+      <multiplicity id="93" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

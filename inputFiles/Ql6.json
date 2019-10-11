@@ -3,6 +3,28 @@
   "tag" : "quadroluminoso",
   "idStazione" : "3",
   "idCda" : "4",
+  "listCircuitoDiBinario" : {
+    "id" : "4",
+    "idSlot" : "8",
+    "uid" : "5",
+    "name" : "Sire",
+    "codificattiva" : false,
+    "concodifica" : true,
+    "codicevelocita" : 80,
+    "bloccato_uscita" : false,
+    "bloccato_laterale" : true,
+    "vincolo_esclusione_da_uscita" : false,
+    "vincolo_esclusione_da_laterale" : false,
+    "interessato_da_convergenza" : false,
+    "esclusodm" : true,
+    "esclusois" : false,
+    "ossidato" : "1",
+    "memoria_ossidato" : false,
+    "direzione_codifica" : "sinistra",
+    "stato" : "idle",
+    "ricam" : "attivo",
+    "inclusione_am" : "attivo"
+  },
   "listSegnaleAlto" : {
     "id" : "26",
     "idSlot" : "24",
@@ -27,49 +49,6 @@
     "ricam_ch" : "attivo",
     "annullata_am_ch" : "attivo"
   },
-  "listCircuitoDiBinario" : {
-    "id" : "4",
-    "idSlot" : "8",
-    "uid" : "5",
-    "name" : "Sire",
-    "codificattiva" : false,
-    "concodifica" : true,
-    "codicevelocita" : 80,
-    "bloccato_uscita" : false,
-    "bloccato_laterale" : true,
-    "vincolo_esclusione_da_uscita" : false,
-    "vincolo_esclusione_da_laterale" : false,
-    "interessato_da_convergenza" : false,
-    "esclusodm" : true,
-    "esclusois" : false,
-    "ossidato" : "1",
-    "memoria_ossidato" : false,
-    "direzione_codifica" : "sinistra",
-    "stato" : "idle",
-    "ricam" : "attivo",
-    "inclusione_am" : "attivo"
-  },
-  "listScudetto" : {
-    "id" : "26",
-    "idSlot" : "24",
-    "uid" : "89",
-    "name" : "yee",
-    "esclusodm" : true,
-    "esclusois" : false,
-    "comandato" : true,
-    "tsm" : "abilitato",
-    "incompatibilita_itinerario" : false,
-    "stato" : "idle",
-    "ricam" : "attivo",
-    "inclusione_am" : "attivo"
-  },
-  "listRTE" : {
-    "id" : "11",
-    "idSlot" : "8",
-    "uid" : "14",
-    "name" : "lju",
-    "stato" : "idle"
-  },
   "listDeviatoio" : {
     "id" : "46",
     "idSlot" : "58",
@@ -88,69 +67,26 @@
     "comando_laterale" : "disattivo",
     "protezione_motore" : "attivo"
   },
-  "listAvvioAvanzamento" : {
-    "id" : "25",
-    "idSlot" : "68",
-    "uid" : "25",
-    "name" : "weg",
-    "esclusodm" : false,
-    "esclusois" : true,
-    "stato" : "idle"
-  },
-  "listIndicatoreCPR" : {
-    "id" : "25",
-    "idSlot" : "68",
-    "uid" : "25",
-    "name" : "Ghs",
-    "target" : "spento",
-    "stato" : "idle"
-  },
-  "listFrecciaEvidenziatrice" : {
-    "id" : "27",
-    "idSlot" : "18",
-    "uid" : "6",
-    "name" : "Ghs",
-    "esclusois" : true,
-    "esclusodm" : false,
-    "stato" : "idle"
-  },
-  "listItinerario" : {
-    "id" : "25",
-    "idSlot" : "68",
-    "uid" : "25",
-    "name" : "Ghs",
-    "stato" : "idle",
-    "abilitazione_check_stato_ossi" : false
-  },
-  "listRegimeDiStazione" : {
+  "listRTE" : {
     "id" : "11",
     "idSlot" : "8",
     "uid" : "14",
     "name" : "lju",
-    "stazione_porta" : false,
-    "ricevuto_tlcom_j" : false,
-    "stato" : "edco",
-    "di_transizionesp" : "attivo",
-    "di_transizionej" : "attivo"
-  },
-  "listIndicatoreDiDirezione" : {
-    "id" : "25",
-    "idSlot" : "68",
-    "uid" : "25",
-    "name" : "tgf",
-    "esclusodm" : false,
-    "esclusois" : true,
-    "numero_da_accendere" : 0,
     "stato" : "idle"
   },
-  "listRipetitoreDiPartenza" : {
-    "id" : "25",
-    "idSlot" : "68",
-    "uid" : "25",
-    "name" : "fdh",
-    "esclusodm" : false,
-    "esclusois" : true,
-    "stato" : "idle"
+  "listScudetto" : {
+    "id" : "26",
+    "idSlot" : "24",
+    "uid" : "89",
+    "name" : "yee",
+    "esclusodm" : true,
+    "esclusois" : false,
+    "comandato" : true,
+    "tsm" : "abilitato",
+    "incompatibilita_itinerario" : false,
+    "stato" : "idle",
+    "ricam" : "attivo",
+    "inclusione_am" : "attivo"
   },
   "listSegnaleBasso" : {
     "id" : "26",
@@ -169,23 +105,13 @@
     "ricam" : "attivo",
     "inclusione_am" : "attivo"
   },
-  "listInstradamento" : {
-    "id" : "25",
-    "idSlot" : "68",
-    "uid" : "25",
-    "name" : "Ghs",
-    "transitato" : "attesa",
-    "liberazione_rigida" : false,
-    "stato" : "idle"
-  },
-  "listElettromagnete" : {
-    "id" : "11",
-    "idSlot" : "8",
-    "uid" : "14",
-    "name" : "lju",
-    "esclusois" : false,
-    "esclusodm" : true,
-    "richiestobasso" : true,
+  "listCalcoloAspettoECodice" : {
+    "id" : "16",
+    "idSlot" : "25",
+    "uid" : "75",
+    "name" : "fdg",
+    "aspetto" : "ctcortissimo",
+    "chiave_rl_piccola" : false,
     "stato" : "idle"
   },
   "listBloccamentoDelPercorso" : {
@@ -199,13 +125,67 @@
     "soccorso_tlcdb" : false,
     "stato" : "idle"
   },
-  "listCalcoloAspettoECodice" : {
+  "listBloccamentoUscita" : {
     "id" : "16",
     "idSlot" : "25",
     "uid" : "75",
     "name" : "fdg",
-    "aspetto" : "ctcortissimo",
-    "chiave_rl_piccola" : false,
+    "uscita" : "attivo",
+    "stato" : "idle"
+  },
+  "listAvvioAvanzamento" : {
+    "id" : "25",
+    "idSlot" : "68",
+    "uid" : "25",
+    "name" : "weg",
+    "esclusodm" : false,
+    "esclusois" : true,
+    "stato" : "idle"
+  },
+  "listElettromagnete" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "esclusois" : false,
+    "esclusodm" : true,
+    "richiestobasso" : true,
+    "stato" : "idle"
+  },
+  "listRipetitoreDiPartenza" : {
+    "id" : "25",
+    "idSlot" : "68",
+    "uid" : "25",
+    "name" : "fdh",
+    "esclusodm" : false,
+    "esclusois" : true,
+    "stato" : "idle"
+  },
+  "listIndicatoreCPR" : {
+    "id" : "25",
+    "idSlot" : "68",
+    "uid" : "25",
+    "name" : "Ghs",
+    "target" : "spento",
+    "stato" : "idle"
+  },
+  "listIndicatoreDiDirezione" : {
+    "id" : "25",
+    "idSlot" : "68",
+    "uid" : "25",
+    "name" : "tgf",
+    "esclusodm" : false,
+    "esclusois" : true,
+    "numero_da_accendere" : 0,
+    "stato" : "idle"
+  },
+  "listFrecciaEvidenziatrice" : {
+    "id" : "27",
+    "idSlot" : "18",
+    "uid" : "6",
+    "name" : "Ghs",
+    "esclusois" : true,
+    "esclusodm" : false,
     "stato" : "idle"
   },
   "listAreaLaterale" : {
@@ -216,22 +196,35 @@
     "tcl_attivato" : false,
     "stato" : "occupato_secco"
   },
-  "listBloccamentoUscita" : {
-    "id" : "16",
-    "idSlot" : "25",
-    "uid" : "75",
-    "name" : "fdg",
-    "uscita" : "attivo",
+  "listItinerario" : {
+    "id" : "25",
+    "idSlot" : "68",
+    "uid" : "25",
+    "name" : "Ghs",
+    "stato" : "idle",
+    "abilitazione_check_stato_ossi" : false
+  },
+  "listInstradamento" : {
+    "id" : "25",
+    "idSlot" : "68",
+    "uid" : "25",
+    "name" : "Ghs",
+    "transitato" : "attesa",
+    "liberazione_rigida" : false,
     "stato" : "idle"
   },
-  "listCodificaItinerario" : {
+  "listRegimeDiStazione" : {
     "id" : "11",
     "idSlot" : "8",
     "uid" : "14",
     "name" : "lju",
-    "stato" : "idle"
+    "stazione_porta" : false,
+    "ricevuto_tlcom_j" : false,
+    "stato" : "edco",
+    "di_transizionesp" : "attivo",
+    "di_transizionej" : "attivo"
   },
-  "listSoccorsoTxTcl" : {
+  "listTracciatoPermanente" : {
     "id" : "11",
     "idSlot" : "8",
     "uid" : "14",
@@ -245,7 +238,14 @@
     "name" : "lju",
     "stato" : "idle"
   },
-  "listTracciatoPermanente" : {
+  "listSoccorsoTxTcl" : {
+    "id" : "11",
+    "idSlot" : "8",
+    "uid" : "14",
+    "name" : "lju",
+    "stato" : "idle"
+  },
+  "listCodificaItinerario" : {
     "id" : "11",
     "idSlot" : "8",
     "uid" : "14",

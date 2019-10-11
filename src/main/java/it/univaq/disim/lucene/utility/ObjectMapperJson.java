@@ -20,15 +20,14 @@ public class ObjectMapperJson {
 
 	public static To deserializeToJson(byte[] json) throws JsonParseException, JsonMappingException, IOException{
 
-		//create ObjectMapper instance
+		
 		ObjectMapper objectMapper = new ObjectMapper();
 
-		//convert json string to object = Deserialize
 		To to = objectMapper.readValue(json, To.class);
 
-		System.out.println("To Json\n"+to);
 		return to;
 	}
+	
 	public static SimulatoreTo deserializeSimulatoreToJson(byte[] json) throws JsonParseException, JsonMappingException, IOException{
 
 		//create ObjectMapper instance

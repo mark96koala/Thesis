@@ -1,6 +1,5 @@
 package jsonTo;
 
-import java.util.Arrays;
 
 public class ListDeviatoio {
 	

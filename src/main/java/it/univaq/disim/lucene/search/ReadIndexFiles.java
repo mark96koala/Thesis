@@ -20,7 +20,7 @@ public class ReadIndexFiles
  
     public static void StartReadingIndex(String indexPath) throws Exception 
     {
-        //Create lucene searcher. It search over a single IndexReader.idSlot in ListInstradamento
+        //Create lucene searcher. It search over a single IndexReader.
         IndexSearcher searcher = createSearcher(indexPath);
          
         //Search indexed contents using search term
